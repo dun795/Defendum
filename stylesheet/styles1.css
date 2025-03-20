@@ -164,3 +164,9 @@
   .popup-form-body button:hover {
     background-color: #0056b3;
   }
+  .logo img{
+    height:50px;
+    width:50px;
+    border-radius:50px;
+    object-fit:cover;
+  }
