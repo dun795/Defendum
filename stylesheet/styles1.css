@@ -1,0 +1,166 @@
+/* Basic Reset & Container */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    /* Background image for the entire page */
+    background: url('../images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+  }
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+  }
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+  }
+  .logo-img {
+    width: 50px;
+  }
+  
+  /* Buttons */
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  .btn.cancel {
+    background-color: #ccc;
+    color: #333;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url('../images/our_logo.jpg') center/cover no-repeat;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+  }
+  
+  /* Services Section */
+  .services {
+    padding: 60px 0;
+    background-color: rgba(247, 247, 247, 0.9);
+  }
+  .section-title {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  .service-card {
+    background-color: #e6f0ff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .service-card .service-icon {
+    font-size: 40px;
+    color: #007BFF;
+    margin-bottom: 15px;
+  }
+  .service-card h3 {
+    margin-bottom: 15px;
+  }
+  .service-card p {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  .get-in-touch-btn {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .get-in-touch-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Popup Form Styling */
+  .popup-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+  }
+  .popup-form {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+  }
+  .popup-form-header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+  }
+  .popup-form-body {
+    padding: 20px;
+  }
+  .popup-form-body input,
+  .popup-form-body select,
+  .popup-form-body textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .popup-form-body button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .popup-form-body button:hover {
+    background-color: #0056b3;
+  }
