@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Defendum - Business Security</title>
+  <link rel="stylesheet" href="stylesheet/styles1.css">
+  <link rel="stylesheet" href="stylesheet/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <div class="container">
+      <nav class="navbar">
+        <a href="index.html" class="logo">
+          <img src="images/our_logo.jpg" alt="Defendum Logo" class="logo-img">
+          <span>Defendum Security Service</span>
+        </a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#" id="contactBtn">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="business-hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Protect Your Business with Defendum</h1>
+        <p>Comprehensive business security solutions designed to safeguard your operations, employees, and assets.</p>
+        <a href="#" id="heroContactBtn" class="btn">Contact Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-title">
+        <h2>Our Business Security Solutions</h2>
+        <p>Customized security services tailored to your business's unique needs.</p>
+      </div>
+      <div class="services-grid">
+        <!-- Service Card 1 -->
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-lock"></i>
+          </div>
+          <h3>Access Control & Alarm Systems</h3>
+          <p>State-of-the-art access control and alarm systems to monitor and protect your premises 24/7.</p>
+          <button class="btn get-in-touch-btn">Get in Touch</button>
+        </div>
+        <!-- Service Card 2 -->
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-video"></i>
+          </div>
+          <h3>CCTV Surveillance & Live Monitoring</h3>
+          <p>High-definition CCTV cameras and live monitoring solutions to ensure constant vigilance.</p>
+          <button class="btn get-in-touch-btn">Get in Touch</button>
+        </div>
+        <!-- Service Card 3 -->
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-user-shield"></i>
+          </div>
+          <h3>Security Consulting & Risk Assessment</h3>
+          <p>Expert advice and comprehensive risk assessments to develop customized security strategies.</p>
+          <button class="btn get-in-touch-btn">Get in Touch</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Popup Contact Form -->
+  <div class="popup-overlay" id="popupOverlay"></div>
+  <div class="popup-form" id="popupForm">
+    <div class="popup-form-header">
+      <h3>Book a Service</h3>
+    </div>
+    <div class="popup-form-body">
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <input type="tel" id="phone" placeholder="Your Phone" required>
+        <input type="text" id="location" placeholder="Your Location" required>
+        <select id="package" required>
+          <option value="">Select Package</option>
+          <option value="basic">Basic</option>
+          <option value="standard">Standard</option>
+          <option value="premium">Premium</option>
+        </select>
+        <select id="preferredContact" required>
+          <option value="">Preferred Method of Contact</option>
+          <option value="email">Email</option>
+          <option value="phone">Phone</option>
+          <option value="whatsapp">WhatsApp</option>
+        </select>
+        <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
+        <button type="submit" id="submitBtn" class="btn">Send</button>
+        <button type="button" id="closePopupBtn" class="btn cancel">Cancel</button>
+      </form>
+    </div>
+  </div>
+
+   <!-- Footer -->
+   <footer>
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>Defendum</h4>
+                <p>Providing comprehensive security solutions and professional firearm training to protect what matters most.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link">f</a>
+                    <a href="#" class="social-link">t</a>
+                    <a href="#" class="social-link">in</a>
+                    <a href="#" class="social-link">ig</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Services</h4>
+                <ul class="footer-links">
+                    <li><a href="home.html">Home Security</a></li>
+                    <li><a href="#">Business Security</a></li>
+                    <li><a href="#">Live Monitoring</a></li>
+                    <li><a href="#">Firearm Training</a></li>
+                    <li><a href="#">Security Consulting</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul class="footer-links">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Team</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Support</h4>
+                <ul class="footer-links">
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Emergency Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Defendum Security Service. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+<script src="javascript/Business.js"></script>
+</body>
+</html>
